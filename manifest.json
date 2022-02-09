@@ -1,0 +1,88 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://14d2d3a7-96a4-4d8a-8a01-80e2f20572b4",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://90692ddd-5868-4cea-b7e0-bb370959642f",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://9d693ce2-1ac1-4a4e-bef2-f6ec26c32aa6",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2559,
+					"width": 3479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5d8f9b70-8ff7-4ed8-9904-5577534ffe95",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://minerva.classics.ox.ac.uk:8182/iiif/3/F296.tif/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "http://minerva.classics.ox.ac.uk:8182/iiif/3/F296.tif",
+									"profile": "level2"
+								},
+								"height": 2559,
+								"width": 3479
+							},
+							"on": "http://9d693ce2-1ac1-4a4e-bef2-f6ec26c32aa6"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://3c420c65-43cb-413e-ae0c-c4c0988980b4",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2559,
+					"width": 3479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://21e6c997-9b4a-4fcc-a01a-5f448b4e5434",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://minerva.classics.ox.ac.uk:8182/iiif/3/F296.tif/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "http://minerva.classics.ox.ac.uk:8182/iiif/3/F296.tif",
+									"profile": "level2"
+								},
+								"height": 2559,
+								"width": 3479
+							},
+							"on": "http://3c420c65-43cb-413e-ae0c-c4c0988980b4"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
