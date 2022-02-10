@@ -35,7 +35,7 @@
                 "width": 4032,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                    "id": "http://minerva.classics.ox.ac.uk:8182/iiif/3/F296.tif",
                     "profile": "level1",
                     "type": "ImageService3"
                   }
